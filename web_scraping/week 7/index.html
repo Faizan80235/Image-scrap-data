@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      nav{
+line-height: 21px;
+Position: fixed;
+height: 64px;
+Top: 0px;
+Width: 1019px;
+Margin: 0px;
+background-color: rgba(72, 72, 74, 1);
+Color: rgba(242, 242, 242, 1);
+Padding: 10.6667px 42.6667px;
+Z-Index: 3;
+list-style: outside;
+Display: flex;
+flex-direction:row;
+align-items:center
+      } 
+    </style>
+</head>
+<body>
+    <nav id="nav-website" onclick="toggleMenu(event)">
+<ul id="first-level-nav">
+<li class="logo">
+<a href="/">
+<img alt="logo" src="/themes/openweathermap/assets/img/logo_white_cropped.png"/>
+</a>
+</li>
+<li id="hamburger">
+<img alt="icon hamburger" src="/themes/openweathermap/assets/img/owm_icons/icon_hamburger.svg"/>
+</li>
+<li id="desktop-menu">
+<form action="/find" method="get" role="search">
+<input name="q" placeholder="Weather in your city" type="text"/>
+<input class="submit" type="submit"/>
+</form>
+<ul>
+<li>
+<a href="/guide">Guide</a>
+</li>
+<li>
+<a href="/api">API</a>
+</li>
+<li>
+<a href="https://dashboard.openweather.co.uk/" target="_blank">Dashboard</a>
+</li>
+<li>
+<a href="https://home.openweathermap.org/marketplace" target="_blank">Marketplace</a>
+</li>
+<li>
+<a href="/price">Pricing</a>
+</li>
+<li>
+<a href="/weathermap">Maps</a>
+</li>
+<li>
+<a href="/our-initiatives">Our Initiatives</a>
+</li>
+<li>
+<a href="/examples">Partners</a>
+</li>
+<li>
+<a href="https://openweather.co.uk/blog/category/weather" target="_blank">Blog</a>
+</li>
+<li>
+<a class="marketplace" href="https://openweather.co.uk" target="_blank">For Business</a>
+</li>
+<li class="user-li"><a href="https://openweathermap.org/home/sign_in">Sign in</a></li>
+<li><a href="/support-centre">Support centre</a></li>
+</ul>
+</li>
+</ul>
+<ul id="mobile-menu">
+<li>
+<form action="/find" method="get" role="search">
+<input name="q" placeholder="Weather in your city" type="text"/>
+<input class="submit" type="submit"/>
+</form>
+</li>
+<li>
+<a href="/guide">Guide</a>
+</li>
+<li>
+<a href="/api">API</a>
+</li>
+<li>
+<a href="https://dashboard.openweather.co.uk/" target="_blank">Dashboard</a>
+</li>
+<li>
+<a href="https://home.openweathermap.org/marketplace" target="_blank">Marketplace</a>
+</li>
+<li>
+<a href="/price">Pricing</a>
+</li>
+<li>
+<a href="/weathermap">Maps</a>
+</li>
+<li>
+<a href="/our-initiatives">Our Initiatives</a>
+</li>
+<li>
+<a href="/examples">Partners</a>
+</li>
+<li>
+<a href="https://openweather.co.uk/blog/category/weather" target="_blank">Blog</a>
+</li>
+<li>
+<a class="marketplace" href="https://openweather.co.uk" target="_blank">For Business</a>
+</li>
+<li><a href="/support-centre">Support centre</a></li>
+<li><a href="https://openweathermap.org/home/sign_in">Sign in</a></li>
+</ul>
+</nav>
+
+</body>
+</html>
